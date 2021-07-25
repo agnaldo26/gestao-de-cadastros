@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de cadastros</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header>
+
+        <div class="header">
+            <h1 class="title">Sistema de Cadastros</h1>
+        </div>
+        <div>
+            <nav id="navegacao">
+                <a href="#div-cliente">Cadastrar clientes</a>
+                <a href="#div-produto">Cadastrar produtos</a>
+                <a href="#contato">+informações</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <div class="container-cadastro" id="div-cliente">
+
+                <h2 class="title-cadastro">CADASTRAR CLIENTES</h2>
+
+                <form id="form">
+                <label for="campo1">Nome</label>
+                <input type="text" name="nome" id="campo1" />
+                <br>
+                <label for="campo2">E-mail</label>
+                <input type="text" name="email" id="campo2" />
+                <br>
+                <label for="campo3">CPF</label>
+                <input type="text" name="number" id="campo3" />
+                <br>
+                <label for="campo4">Telefone</label>
+                <input type="text" name="number" id="campo4" />
+                <br>
+                <label for="campo5">Endereço</label>
+                <input type="text" name="endereço" id="campo5" />
+                <br>
+                <input type="submit" class="cadastrar" id="cadastrarCliente" value="Cadastrar"></input>
+                </form>
+                
+            </div>
+
+            <div class="container-cadastro" id="div-produto">
+
+                <h2 class="title-cadastro">CADASTRAR PRODUTOS</h2>
+
+                <form id="form2">
+                    <label for="campo6">Código</label>
+                    <input type="text" name="number" id="campo6" />
+                    <br>
+                    <label for="campo7">Produto</label>
+                    <input type="text" name="produto" id="campo7" />
+                    <br>
+                    <label for="campo8">Marca</label>
+                    <input type="text" name="marca" id="campo8" />
+                    <br>
+                    <label for="campo9">Quantidade</label>
+                    <input type="text" name="quantidade" id="campo9" />
+                    <br>
+                    <label for="campo10">Descrição</label>
+                    <input type="text" name="descrição" id="campo10" />
+                    <br>
+                    <input type="submit" class="cadastrar" id="cadastrarProduto" value="Cadastrar"></input>
+                    <br>
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="contato">
+        <address>
+
+            <p>
+                Desenvolvido por <strong> Agnaldo Pereira </strong><br>
+
+            </p>
+
+            <p>
+                <a href="https://www.linkedin.com/in/agnaldo-pereira-de-souza-silva-filho-8823081a6"
+                    target="_blank"><strong>LinkedIn</strong></a> <br>
+                <a href="https://github.com/Agnaldo26" target="_blank"><strong>GitHub</strong> </a>
+            </p>
+
+            <p>
+                Contato: <br>
+                <a href="mailto:agnaldosilva9704@gmail.com" target="_blank"><strong>agnaldosilva9704@gmail.com</strong>
+                </a> <br>
+                <a href="tel:+5512997049359" target="_blank"><strong>+55 12 997049359</strong></a> <br>
+            </p>
+    </footer>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
